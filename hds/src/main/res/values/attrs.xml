@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mask" format="boolean" />
+    <attr name="guide" format="string" />
+    <attr name="time" format="integer" />
+    <attr name="tailText" format="string" />
+    <attr name="tailImg" format="reference" />
+    <attr name="status" format="enum">
+        <enum name="undefined" value="0" />
+        <enum name="check" value="1" />
+        <enum name="error" value="2" />
+        <enum name="disable" value="3" />
+    </attr>
+
+    <attr name="CircleKitViewStyle" format="reference" />
+    <declare-styleable name="CircleKitView">
+        <attr name="CircleKit_Color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="HCCheckBox">
+        <attr name="android:text" />
+        <attr name="android:checked" />
+        <attr name="android:enabled" />
+    </declare-styleable>
+    <declare-styleable name="NPasswordEditText">
+        <attr name="android:minHeight" />
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="mask" />
+        <attr name="status" />
+        <attr name="guide" />
+    </declare-styleable>
+    <declare-styleable name="NEditText">
+        <attr name="android:minHeight" />
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:maxLength" />
+        <attr name="status" />
+        <attr name="android:textOn" />
+        <attr name="tailText" />
+        <attr name="time" />
+        <attr name="tailImg" />
+    </declare-styleable>
+    <declare-styleable name="TextArea">
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+    </declare-styleable>
+    <declare-styleable name="LabeledSwitch">
+        <attr name="textOn" format="string" />
+        <attr name="textOff" format="string" />
+        <attr name="on" format="boolean" />
+        <attr name="android:textSize" />
+        <attr name="android:enabled" />
+    </declare-styleable>
+    <declare-styleable name="Selector">
+        <attr name="android:minHeight" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="tailImg" />
+    </declare-styleable>
+</resources>

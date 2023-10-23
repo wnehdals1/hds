@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_20">
+
+        <LinearLayout
+            android:id="@+id/ll_toast_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/dp_20"
+            android:background="@drawable/bg_r8_f_green400">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_toast_msg"
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_16"
+                android:src="@drawable/ic_check_white"
+                android:layout_gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="visible"
+                android:layout_marginEnd="@dimen/dp_4"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+            <TextView
+                android:id="@+id/tv_toast_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Paragraph.S"
+                android:paddingVertical="@dimen/dp_10"
+                android:textColor="@color/white"
+                tools:text="hellow wordl!"
+                app:layout_constraintStart_toEndOf="@+id/iv_toast_msg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

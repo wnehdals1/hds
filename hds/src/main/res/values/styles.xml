@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CircleKitView">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="CircleKitView.Large">
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style>
+
+    <style name="CircleKitView.Small">
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="BottomNavigationText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/sel_gray400_black</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToastText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="TabBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/check_gray400_black</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/sel_bg_radio_token</item>
+    </style>
+    <style name="TabBox.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/sel_gray400_black</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/sel_bg_radio_token_textview</item>
+    </style>
+    <style name="CheckBoxToken">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/c_black_gray_500_select</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingVertical">@dimen/dp_4</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/sel_bg_check_box_token</item>
+    </style>
+    <style name="InputEditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColorHint">@color/gray_500</item>
+    </style>
+    <style name="InputGuideText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_600</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+    <style name="InputErrorText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/status_negative</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+    <style name="Gray700Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+    <style name="Gray600Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/gray_600</item>
+    </style>
+    <style name="ConfirmText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/sel_bg_gray500_black</item>
+    </style>
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabIndicatorAnimationMode">linear</item>
+        <item name="tabTextAppearance">@style/TabStyle</item>
+        <item name="tabSelectedTextAppearance">@style/TabSelectedStyle</item>
+    </style>
+    <style name="TabStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray_600</item>
+    </style>
+    <style name="TabSelectedStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TagStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingHorizontal">@dimen/dp_4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_r4_s_gray100_f_gray50</item>
+    </style>
+    <style name="TagStyle.gray200">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingVertical">@dimen/dp_2</item>
+        <item name="android:paddingHorizontal">@dimen/dp_6</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_r4_s_gray300_f_gray200</item>
+    </style>
+    <style name="TagStyle.Offline">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/blue_400</item>
+        <item name="android:paddingHorizontal">@dimen/dp_4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_r4_s_blue100_f_blue50</item>
+    </style>
+    <style name="TagStyle.VOD">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/green_400</item>
+        <item name="android:paddingHorizontal">@dimen/dp_4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_r4_s_green100_f_green50</item>
+    </style>
+    <style name="TagStyle.LIVE">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/magenta_400</item>
+        <item name="android:paddingHorizontal">@dimen/dp_4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_r4_s_mageta100_f_mageta50</item>
+    </style>
+    <style name="TagStyle.SupplementLecture">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingHorizontal">@dimen/dp_4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_r4_s_gray100_f_gray50</item>
+    </style>
+
+    <style name="Heading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_32</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Heading.XL">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_40</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Heading.L">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_36</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Heading.S">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_28</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Heading.XS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Heading.XXS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.L">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.S">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.XS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.XXS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Paragraph">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Paragraph.L">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Paragraph.S">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Paragraph.XS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Paragraph.XXS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="BlackButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:paddingVertical">@dimen/dp_14</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/sel_blackbutton</item>
+        <item name="android:textColor">@color/enable_gray300_white</item>
+    </style>
+    <style name="BlackButton.L">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:paddingVertical">@dimen/dp_16</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/sel_blackbutton</item>
+        <item name="android:textColor">@color/enable_gray300_white</item>
+    </style>
+    <style name="BlackButton.S">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/sel_blackbutton</item>
+        <item name="android:textColor">@color/enable_gray300_white</item>
+    </style>
+    <style name="BlackButtonPill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">@dimen/dp_14</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/sel_blackbutton_pill</item>
+        <item name="android:textColor">@color/enable_gray300_white</item>
+    </style>
+    <style name="BlackButtonPill.S">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/sel_blackbutton_pill</item>
+        <item name="android:textColor">@color/enable_gray300_white</item>
+    </style>
+    <style name="SecondaryButton.L" parent="@style/Label">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/secondary_button</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="SecondaryButton" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_14</item>
+        <item name="android:paddingHorizontal">@dimen/dp_16</item>
+        <item name="android:background">@drawable/secondary_button</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="SecondaryButton.S" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/secondary_button</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="SecondaryButton.XS" parent="@style/Label.XS">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_4</item>
+        <item name="android:paddingHorizontal">@dimen/dp_8</item>
+        <item name="android:background">@drawable/secondary_button</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="SecondaryButtonPill" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_14</item>
+        <item name="android:paddingHorizontal">@dimen/dp_16</item>
+        <item name="android:background">@drawable/secondary_button_pill</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="SecondaryButtonPill.S" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/secondary_button_pill</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="SecondaryButtonPill.XS" parent="@style/Label.XS">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_4</item>
+        <item name="android:paddingHorizontal">@dimen/dp_8</item>
+        <item name="android:background">@drawable/secondary_button_pill</item>
+        <item name="android:textColor">@color/secondary_button</item>
+    </style>
+    <style name="TertiaryButton.L" parent="@style/Label">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TertiaryButton" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_14</item>
+        <item name="android:paddingHorizontal">@dimen/dp_16</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TertiaryButton.S" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TertiaryButton.XS" parent="@style/Label.XS">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_4</item>
+        <item name="android:paddingHorizontal">@dimen/dp_8</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TertiaryButtonPill" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_14</item>
+        <item name="android:paddingHorizontal">@dimen/dp_16</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TertiaryButtonPill.S" parent="@style/Label.S">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_8</item>
+        <item name="android:paddingHorizontal">@dimen/dp_12</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TertiaryButtonPill.XS" parent="@style/Label.XS">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingVertical">@dimen/dp_4</item>
+        <item name="android:paddingHorizontal">@dimen/dp_8</item>
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/tertiary_button</item>
+    </style>
+    <style name="TailTextButton">
+        <item name="android:background">@drawable/bg_r100_f_black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TailTextButton.Disable">
+        <item name="android:background">@drawable/bg_r100_f_gray50</item>
+        <item name="android:textColor">@color/gray_300</item>
+    </style>
+    <style name="TailTextButton.Select">
+        <item name="android:background">@drawable/bg_r100_s_black_f_white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+</resources>

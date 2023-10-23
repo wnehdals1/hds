@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/bg_r100_s2_black_f_white"></item>
+    <item
+        android:state_selected="false"
+        android:state_enabled="true"
+        android:drawable="@drawable/bg_r100_s2_gray200_f_white"></item>
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/bg_r100_s2_gray200_f_white"></item>
+
+
+</selector>
