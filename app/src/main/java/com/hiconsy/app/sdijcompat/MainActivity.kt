@@ -3,7 +3,8 @@ package com.hiconsy.app.sdijcompat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatTextView
-import com.hiconsy.app.hds.toast.CommonToast
+import com.hiconsy.app.hds.kit.CommonToast
+import com.hiconsy.app.hds.kit.switch.LabeledSwitch
 
 class MainActivity : AppCompatActivity() {
     private val tv : AppCompatTextView by lazy { findViewById(R.id.tvtv) }

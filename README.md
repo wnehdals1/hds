@@ -19,3 +19,6 @@ dependencyResolutionManagement {
     }
 }
 ```
+## Component
+- CommonToast
+- LabeledSwitch

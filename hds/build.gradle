@@ -54,7 +54,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.wnehdals1'
                 artifactId = 'hds'
-                version = '1.0.2'
+                version = '1.0.4'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -63,7 +63,7 @@ afterEvaluate {
 
                 groupId = 'com.github.wnehdals1'
                 artifactId = 'hds'
-                version = '1.0.2'
+                version = '1.0.4'
             }
         }
     }

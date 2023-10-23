@@ -1,4 +1,4 @@
-package com.hiconsy.app.hds.toast
+package com.hiconsy.app.hds.kit
 
 import android.content.Context
 import android.view.Gravity
